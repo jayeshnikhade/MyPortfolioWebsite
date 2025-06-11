@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+body header nav .left {
+    font-size: 1.8rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(159, 159, 248);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 92px 0px;
+    font-size: 2.8rem;
+    align-items: center;
+}
+
+.buttons{
+    margin-top: 4px;
+}
+
+#btn1{
+    background: #000021;
+    width: 160px;
+    height: 45px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #8455f7;
+    color: white;
+    font-weight: bold;
+}
+
+#btn1:hover{
+    background: #000021;
+    width: 162px;
+    height: 47px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #8455f7;
+    color: white;
+    font-weight: bold;
+}
+#btn2{
+    height: 37px;
+    width: 123px;
+    border-radius: 6px;
+    font-weight: bold;
+    background: #b0ddfc;
+    border-color: black;
+}
+
+#btn2:hover{
+    height: 39px;
+    width: 125px;
+    border-radius: 6px;
+    font-weight: bold;
+    background: #b0ddfc;
+    border-color: black;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.icons{
+    display: flex;
+    margin: auto;
+}
+.text-gray {
+    color: gray;
+}
+
+.purple {
+    color: rgb(181, 107, 250);
+}
+
+#element {
+    color: rgb(181, 107, 250);
+}
+
+.rightsection {
+    display: flex;
+    justify-content: center;
+}
+
+.rightsection img {
+    width: 80%;
+    /* margin: 50px 0px; */
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 157vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+#partition {
+    border: 0;
+    background: #6735a2;
+    height: 1px;
+    margin: 41px 73px;
+}
+
+.secondSection .box {
+    height: 1px;
+    background: white;
+    margin: 36px 0px;
+    width: 80vw;
+}
+
+.abc {
+    border: 0;
+    height: 1.1px;
+    margin-top: 38px;
+    background: #4b028f;
+}
+
+.intro {
+    margin-top: 15px;
+    width: 101%;
+    color: #e1c6fb;
+    font-size: medium;
+}
+
+.education {
+    margin-top: 25px;
+    height: 164px;
+
+}
+
+.education-text {
+    /* margin-top:     ; */
+    text-align: center;
+}
+
+.detailed-education {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+
+.detailed-education div {
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    padding: 0px 20px;
+    margin: 0px 5px;
+}
+
+.detailed-education p {
+    margin-top: 18px;
+}
+
+.address {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.detailed-address{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.detailed-address div{
+    width: 50%;
+}
+
+.detailed-address p{
+    margin-top: 18px;
+}
+
+.skills{
+    margin-top: 30px;
+}
+
+.skills ul{
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+.skills h4{
+    margin: 5px 0;
+}
+
+.projects {
+    margin-top: 30px;
+}
+
+.projects ul{
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+.projects p{
+    margin: 15px;
+}
+
+.projects h4{
+    margin: 5px 0;
+}
+
+.experience{
+    margin-top: 30px;
+}
+
+.experience h4{
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+.contact{
+    margin: auto;
+    width: 80%;
+}
+
+.sources{
+    margin-top: 15px;
+}
+
+.sources h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.contact a{
+    color: rgb(102, 194, 254);
+    margin-left: 10px;
+    margin-top: 23px;
+}
+
+.contact li{
+    display: flex;
+}
+
+.individuals{
+    display: flex; 
+}
+
+.contact i{
+    color: #ffffff;
+    margin-top: 24px;
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
