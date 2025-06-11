@@ -1,2 +1,2 @@
-# Mini-Projects
-Mini projects using HTML, CSS &amp; Javascript
+#Portfolio Website
+Using HTML, CSS & Javascript
